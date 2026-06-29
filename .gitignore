@@ -1,0 +1,17 @@
+# Modelos y artefactos pesados
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Carpetas de logs y resultados grandes
+ZipLogs/
+artifacts/
+artifacts_vv3/
+tensorboard_logs/
+mlruns/
+runs/
+
+# Python cache
+__pycache__/
+*.py[cod]
