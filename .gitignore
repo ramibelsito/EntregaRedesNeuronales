@@ -1,17 +1,3 @@
-# Modelos y artefactos pesados
-*.pt
+# Ignore generated model artifacts
 *.pth
-*.ckpt
-*.bin
-
-# Carpetas de logs y resultados grandes
-ZipLogs/
-artifacts/
-artifacts_vv3/
-tensorboard_logs/
-mlruns/
-runs/
-
-# Python cache
-__pycache__/
-*.py[cod]
+*.pt
