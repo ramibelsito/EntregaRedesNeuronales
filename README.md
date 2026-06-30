@@ -1,5 +1,7 @@
-EntregaRedesNeuronales
-Entrega de Trabajos de MLP y CNN Unificadas
+# Scripts Clean repeated images 
+ 
+Para correrlo: ./clean_duplicate_images.sh ./direccion_de_carpetas_train_y_val
+
 # Preguntas sobre el ejemplo de clasificación de imágenes con PyTorch y MLP
 
 ## 1. Dataset y Preprocesamiento
@@ -356,4 +358,3 @@ Respuesta: La inicialización puede afectar las métricas de validación porque 
 - ¿Por qué `bias` se suele inicializar en cero?
 
 Respuesta: El `bias` suele inicializarse en cero porque no genera el mismo problema de simetría que los pesos. Los pesos ya se inicializan de forma aleatoria, entonces las neuronas pueden aprender cosas distintas. Inicializar el bias en cero simplifica el modelo inicial y suele funcionar correctamente.
-
