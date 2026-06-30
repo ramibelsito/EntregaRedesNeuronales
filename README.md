@@ -2,6 +2,9 @@
  
 Para correrlo: ./clean_duplicate_images.sh ./direccion_de_carpetas_train_y_val
 
+# Recuperar logs
+
+Dentro de la carpeta de logs, correr unzip logs.zip y automaticamente se reconstruirá la carpeta
 # Preguntas sobre el ejemplo de clasificación de imágenes con PyTorch y MLP
 
 ## 1. Dataset y Preprocesamiento
