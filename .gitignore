@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modelos y artefactos pesados
 *.pt
 *.pth
@@ -15,3 +16,8 @@ runs/
 # Python cache
 __pycache__/
 *.py[cod]
+=======
+# Ignore generated model artifacts
+*.pth
+*.pt
+>>>>>>> origin/master
